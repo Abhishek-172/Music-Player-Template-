@@ -1,0 +1,400 @@
+@media (min-width: 350px)
+{
+nav .span
+	{
+		font-size: 10px;
+		margin-left: -30px;
+	}
+	nav span b
+	{
+		font-size: 10px;
+		margin-left: -30px;
+		letter-spacing: 0px;
+	}
+	#fav
+	{
+		font-size: 9px;
+		margin-left: 10px;
+	}
+	.search_wrap
+	{
+		margin-left: 30px;
+		height: 15px;
+	}
+	.search_wrap .input
+	{
+		width: 80px;
+	}
+	.search_wrap .mic
+	{
+		left: 140px;
+	}
+	.notification
+	{
+		font-size: 20px;
+		margin-left: -12px;
+	}
+	.avatar
+	{
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+	}	
+}
+
+
+
+
+@media (min-width: 480px)
+{
+nav .span
+	{
+		font-size: 15px;
+		margin-left: -20px;
+	}
+	nav span b
+	{
+		font-size: 15px;
+		margin-left: -20px;
+		letter-spacing: 0px;
+	}
+	#fav
+	{
+		font-size: 15px;
+		margin-left: 10px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 25px;
+	}
+	.search_wrap .input
+	{
+		width: 110px;
+	}
+	.search_wrap .mic
+	{
+		left: 170px;
+	}
+	.notification
+	{
+		font-size: 27px;
+		margin-left: 5px;
+	}
+	.avatar
+	{
+		width: 60px;
+		height: 60px;
+		margin-left: 35px;
+	}	
+}
+
+
+
+@media (min-width: 586px)
+{
+	nav .span
+	{
+		font-size: 15px;
+		margin-left: -10px;
+	}
+	nav span b
+	{
+		font-size: 15px;
+		margin-left: -10px;
+		letter-spacing: 0px;
+	}
+	#fav
+	{
+		font-size: 15px;
+		margin-left: 15px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 50px;
+	}
+	.search_wrap .input
+	{
+		width: 150px;
+	}
+	.search_wrap .mic
+	{
+		left: 198px;
+	}
+	.notification
+	{
+		font-size: 27px;
+		margin-left: 45px;
+	}
+	.avatar
+	{
+		width: 60px;
+		height: 60px;
+		margin-left: 35px;
+	}
+}
+
+
+
+@media (min-width: 700px)
+{
+	nav .span
+	{
+		font-size: 30px;
+		margin-left: 0px;
+	}
+
+	nav span b
+	{
+		font-size: 30px;
+		margin-left: 0px;
+		letter-spacing: 1px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 10px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 50px;
+	}	
+	.search_wrap .input
+	{
+		width: 150px;
+	}
+	.search_wrap .mic
+	{
+		left: 205px;
+	}
+
+	.notification
+	{
+		font-size: 27px;
+		margin-left: 50px;
+	}
+	.avatar
+	{
+		width: 60px;
+		height: 60px;
+		margin-left: 35px;
+	}
+}
+
+
+
+@media (min-width: 800px)
+{
+	nav .span
+	{
+		font-size: 30px;
+		margin-left: -5px;
+	}
+
+	nav span b
+	{
+		font-size: 30px;
+		margin-left: -5px;
+		letter-spacing: 1px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 20px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 50px;
+		width: 150px;
+	}
+	.search_wrap .input
+	{
+		width: 180px;
+	}
+	.search_wrap .mic
+	{
+		left:240px;
+	}
+	.notification
+	{
+		font-size: 27px;
+		margin-left: 150px;
+	}
+	.avatar
+	{
+		width: 60px;
+		height: 60px;
+		margin-left: 40px;
+	}
+}
+@media (min-width: 850px)
+{
+	nav .span
+	{
+		font-size: 30px;
+		margin-left: -5px;
+	}
+
+	nav span b
+	{
+		font-size: 30px;
+		margin-left: -5px;
+		letter-spacing: 1px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 20px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 100px;
+		width: 150px;
+	}
+}
+
+@media (min-width: 900px)
+{
+	nav .span
+	{
+		margin-left: 20px;
+	}
+
+	nav span b
+	{
+		margin-left: 20px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 35px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 150px;
+		width: 150px;
+	}
+}
+
+
+@media (min-width: 1000px)
+{
+	nav .span
+	{
+		margin-left: 20px;
+	}
+
+	nav span b
+	{
+		margin-left: 20px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 25px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 240px;
+		width: 200px;
+	}	
+
+}
+@media (min-width: 1150px)
+{
+	nav .span
+	{
+		margin-left: 0px;
+	}
+
+	nav span b
+	{
+		margin-left: 0px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 25px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 400px;
+		width: 200px;
+	}	
+}
+@media (min-width: 1240px)
+{
+	nav .span
+	{
+		margin-left: 0px;
+	}
+
+	nav span b
+	{
+		margin-left: 0px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 40px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 475px;
+		width: 200px;
+	}
+}
+@media (min-width: 1350px)
+{
+	nav .span
+	{
+		margin-left: 20px;
+	}
+
+	nav span b
+	{
+		margin-left: 20px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 550px;
+		width: 200px;
+	}
+}
+@media (min-width: 1435px)
+{
+	nav .span
+	{
+		margin-left: 20px;
+	}
+
+	nav span b
+	{
+		margin-left: 20px;
+	}
+	#fav
+	{
+		font-size: 20px;
+		margin-left: 50px;
+	}
+	.search_wrap
+	{
+		height: 30px;
+		margin-left: 650px;
+		width: 200px;
+	}
+}

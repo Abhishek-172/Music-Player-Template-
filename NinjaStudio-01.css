@@ -1,0 +1,1754 @@
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #152238;
+	overflow-y: hidden;
+}
+
+/*Navigation Bar Styling*/
+
+/*Navigation Division Height Auto and Width 100%*/
+nav
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+/*Navigation Span Contains Logo "Ninja Studio"*/
+
+nav .span
+{
+	color: white;
+	font-size: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	position: relative;
+}
+nav span b
+{
+	margin-left: 20px;
+	letter-spacing: 4px;
+}
+
+/*Navigation Logo Styling Ends Here*/
+
+
+/*Navigation Bar List Styling Starts Here*/
+
+nav li
+{
+	list-style: none;
+	text-decoration: none;
+	position: relative;
+}
+nav ul li
+{
+	float: left;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/*List Styling Ends Here*/
+
+/*Favourites Button Styling*/
+
+#fav
+{
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	position: relative;
+}
+/*Favourites Button Ends Here*/
+
+
+/*Search Bar*/
+
+.search_wrap
+{
+			width: 200px;
+			margin-top: 15px;
+			margin-left: 600px;
+			height: 30px;
+			position: relative;
+			/*border: 1px solid red;*/
+}
+
+/*Search Bar input-type*/
+
+.search_wrap .input
+{
+			position: absolute;
+			top:0;
+			left:0;
+			width: 200px;
+			height: 30%;
+			padding: 10px 40px;
+			border-radius: 2px;
+			font-size: 15px;
+			border: 0;
+			outline: none;
+			color: dimgrey;
+			background-color: #003B6F;
+}
+
+/*Search bar search button styling*/
+
+.search_wrap .btn
+{
+			position: absolute;
+			top:5px;
+			left: 10px;
+			z-index: 1;
+			cursor: pointer;
+			/*border: 1px solid red;*/
+}	
+
+.search_wrap .btn ion-icon
+{
+			color: white;
+			margin-left: 1px;
+			margin-top: 1px;
+}
+
+
+/*Search Bar Mic Button */
+
+
+.search_wrap .mic
+{
+	position: absolute;
+	left: 255px;
+	top: 4px;
+	z-index: 1;
+	font-size: 20px;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+}
+
+.search_wrap .mic ion-icon
+{
+			color: white;
+			margin-left: 1px;
+			margin-top: 1px;
+}
+
+/*Search Bar Ends Here*/
+
+
+
+/*Notification Button Starts Here*/
+
+.notification
+{
+	position: relative;
+	margin-left: 150px;
+	margin-top: 15px;
+	font-size: 27px;
+	color: white;
+	z-index: 1;
+	cursor: pointer;
+}
+
+/*Small Rounded Shaped Notification Red Button*/
+
+.span1
+{
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	background-color: red;
+	border-radius: 50px;
+	margin-top: 15px;
+	margin-left: -9px;
+}
+
+
+/*User Image "Avatar"*/
+
+.avatar
+{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-image: url("AP.jpeg");
+	background-size: cover;
+	margin-left: 50px;
+	z-index: 1;
+	cursor: pointer;
+	
+}
+
+
+/*NavBar and NavBar Components Styling Ends Here*/
+
+
+
+/*Main Container*/
+main
+{
+	height: 88vh;
+	width: auto;
+	/*border: 1px solid orange;*/
+	display: flex;
+}
+
+/*Main Container First Child Named Section*/
+
+section
+{
+	height: 80vh;
+	width: 65%;
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+}
+
+/*Making Section Scrollable */
+section::-webkit-scrollbar {
+    display: none;
+}
+
+/*Main Container Second Child Named Aside*/
+
+aside
+{
+	height: 80vh;
+	width: 35%;
+	/*border: 1px solid red;*/
+	overflow-y: scroll;
+}
+
+
+/*Making Aside Section Scrollable*/
+aside::-webkit-scrollbar {
+    display: none;
+}
+
+/*First Child of Section*/
+
+.section1
+{
+	position: relative;
+	height: 50vh;
+	width: 90%;
+	/*border: 1px solid green;	*/
+	display: flex;
+	margin: 0% 3%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+/*Second Child of Section*/
+
+.RandomList
+{
+	height: 40vh;
+	width: 89%;
+	/*border: 1px solid white;*/
+	margin-left: 30px;
+	margin-top: -50px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+/*Random List First Container*/
+
+.R-1
+{
+	height: 17.5vh;
+	width: 100%;
+	/*border: 1px solid red;	*/
+	display: flex;
+	flex-direction: row;
+}
+
+/*Random List First Image Container under R-1*/
+
+.R-1-1
+{
+	height:17.5;
+	width: 18%;
+	/*border: 1px solid white;*/
+	background-image: url(Party.png);
+	background-size: cover;
+}
+
+/*Play Button Styling */
+
+.R-1-1 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 45px;
+	color: white;
+	font-size: 35px;
+	opacity: 1%;
+}
+
+/*On Hover The Image Play Button appears*/
+
+.R-1-1:hover ion-icon
+{
+	opacity: 90%;
+}
+
+
+/*R-1 Text Container*/
+
+.R-1-2
+{
+	height: 17.5;
+	width:30%;
+	/*border: 1px solid white;*/
+	color: white;
+	font-family: sans-serif;
+	display: flex;
+}
+
+/*First Text Under R-1 Text Container*/
+
+.R-1-2-1
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 25px;	
+	/*border: 1px solid red;	*/
+}
+
+/*Second Text Under R-1 Text Container*/
+
+.R-1-2-2
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 30px;
+}
+
+
+/*Second Container Under R-1*/
+
+.R-1-3
+{
+	height:17.5;
+	width: 18%;
+	/*border: 1px solid white;*/
+	background-image: url(Pop.jpg);
+	background-size: cover;
+}
+
+.R-1-3 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 45px;
+	color: white;
+	font-size: 35px;
+	opacity: 1%;
+}
+
+.R-1-3:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.R-1-4
+{
+	height: 17.5;
+	width: 35%;
+	/*border: 1px solid white;*/
+	color: white;
+	font-family: sans-serif;
+	display: flex;
+}
+
+
+.R-1-4-1
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 25px;	
+	/*border: 1px solid red;*/
+}
+
+.R-1-4-2
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 30px;
+}
+
+/*R-1 Ends Here*/
+
+
+/*R-2 is the Second Child of RandomLists*/
+.R-2
+{
+	height: 17.5vh;
+	width: 100%;
+	/*border: 1px solid blue;*/
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+/*First Child of R-2*/
+.R-2-1
+{
+	height:17.5;
+	width: 18%;
+	/*border: 1px solid white;*/
+	background-image: url(RoadTrip.png);
+	background-size: cover;
+}
+
+.R-2-1 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 45px;
+	color: white;
+	font-size: 35px;
+	opacity: 1%;
+}
+
+.R-2-1:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.R-2-2
+{
+	height: 17.5;
+	width:30%;
+	/*border: 1px solid white;*/
+	font-family: sans-serif;
+	display: flex;
+	color: white;
+}
+
+.R-2-2-1
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 25px;	
+	/*border: 1px solid red;*/
+}
+
+.R-2-2-2
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+/*Second Child of R-2*/
+
+.R-2-3
+{
+	height:17.5;
+	width: 18%;
+	/*border: 1px solid white;*/
+	background-image: url(Electronic.jpg);
+	background-size: cover;
+}
+
+.R-2-3 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 45px;
+	color: white;
+	font-size: 35px;
+	opacity: 1%;
+}
+
+.R-2-3:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.R-2-4
+{
+	height: 17.5;
+	width: 35%;
+	/*border: 1px solid white;*/
+	font-family: sans-serif;
+	display: flex;
+	color: white;
+}
+
+
+/*Image Silder*/
+
+/*First Image*/
+
+
+.item1
+{
+	height: 70%;
+	width: 32%;
+	/*background-color: cyan;*/
+	background-image: url("Atif.jpg");
+	background-size: cover;
+}
+
+.item1:hover
+{
+	transition: transform .5s;
+	transform: scale(1.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Second Image*/
+
+.item2
+{
+	height: 70%;
+	width:32%;
+	/*background-color: cyan;*/
+	background-image: url("Tony.jpg");
+	background-size: cover;
+}
+
+.item2:hover
+{
+	transition: transform .5s;
+	transform: scale(1.2);	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Third Image*/
+
+.item3
+{
+	
+	height: 70%;
+	width:32%;
+	/*background-color: cyan;*/
+	background-image: url("Neha.jpg");
+	background-size: cover;
+}
+.item3:hover
+{
+	transition: transform .5s;
+	transform: scale(1.2);	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+
+/*Slider Section Ends Here*/
+
+
+
+/*This is a common class used to display the text*/
+.section2-4
+{
+	height: 3vh;
+	width: 90%;
+	/*border: 1px solid red;	*/
+	display: flex;
+	margin: 6% 3%;
+}
+
+.section2-4-item1
+{
+	height: auto;
+	width: 100%;
+	/*border: 1px solid white;*/
+	padding: 10px;	
+	margin: -2% 1%;
+	color: white;
+	font-family: sans-serif;
+}
+
+
+
+/*This is a section 5- Rounded Image of Artists*/
+.section-5
+{
+	height: 22vh;
+	width: 88%;
+	margin-left: 35px;	
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.d1-01
+{
+	height: 22vh;
+	width: 10vw;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.d1-01 ion-icon
+{
+	margin-left: 65px;
+	margin-top: 50px;
+	color: white;
+	font-size: 40px;
+	opacity: 1%;
+}
+
+.d1-01-a:hover ion-icon
+{
+	opacity: 90%;
+}
+ 
+.d1-01-a
+{
+	height: 19vh;
+	width: 10vw;
+	background-color: black;
+	border-radius: 50%;
+}
+
+
+
+.d1-01-a-bg
+{
+	background-image: url(ed-sheeran.jpg);
+	background-size: cover;
+}
+
+.ion-icon-play
+{
+	margin-left: 70px;
+	margin-top: 60px;
+	color: white;
+	font-size: 35px;
+	opacity: 1%;
+}
+
+.ion-icon-play:hover
+{
+	opacity: 90%;
+}
+
+
+.d1-01-b-bg
+{
+	background-image: url(ColdPlay.jpg);
+	background-size: cover;
+}
+
+.d1-01-c-bg
+{
+	background-image: url(Zyan.jpg);
+	background-size: cover;
+}
+
+.d1-01-d-bg
+{
+	background-image: url(Charlie-Puth.jpg);
+	background-size: cover;
+}
+
+.d1-01-e-bg
+{
+	background-image: url(ID.jpeg);
+	background-size: cover;
+}
+
+
+.d1-01-b
+{
+	height: 3vh;
+	width: 10vw;
+	/*background-color: red;*/
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+/*Section 5 ends here*/
+
+
+/*Section 6 Starts Here - Featured Station Section*/
+.section-6
+{
+	height: 15vh;
+	width: 88%;
+	margin-left: 35px;	
+	margin-top: 35px;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-between;
+	background-color: #003B6F;
+}
+
+
+.d1-6-img-container1 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container1:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.d1-6-img-container2 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container2:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.d1-6-img-container3 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container4 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container4:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.d1-6-img-container5 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container5:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.d1-6-img-container6 ion-icon
+{
+	color: white;
+	font-size: 40px;	
+	margin-top: 40px;
+	margin-left: 40px;
+	opacity: 1%;
+}
+
+.d1-6-img-container6:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.d1-6-01
+{
+	height: 15vh;
+	width: 17vw;
+	background-color: #003B6F;
+	margin-right: 10px;	
+}
+
+.d1-6-01 .icon
+{
+	height: 110px;
+	width:110px;
+	color: white;
+}
+
+.d1-6-02
+{
+	height: 15vh;
+	width: 17vw;
+	/*background-color: black;*/
+	border-radius: 50%;	
+	margin-right: 10px;
+}
+
+.d1-6-img-container1
+{
+	background-image: url(Love.jpg);
+	background-size: cover;
+}
+
+.d1-6-img-container2
+{
+	background-image: url(Pop.jpg);
+	background-size: cover;
+}
+.d1-6-img-container3
+{
+	background-image: url(Rock.jpg);
+	background-size: cover;
+}
+.d1-6-img-container4
+{
+	background-image: url(Retro.jpg);
+	background-size: cover;
+}
+.d1-6-img-container5
+{
+	background-image: url(Chill.jpg);
+	background-size: cover;
+}
+.d1-6-img-container6
+{
+	background-image: url(old.jpg);
+	background-size: cover;
+}
+
+/*Section-6 Ends Here*/
+
+
+/*Section-7 Starts Here*/
+.section-7
+{
+	height: 25vh;
+	width: 88%;
+	margin-left: 35px;	
+	margin-top: 35px;
+	/*border: 1px solid white;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image-box1
+{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    height: 25vh;
+    width:18vw;
+    /*border: 1px solid red;*/
+    /*background-image: url(Electronic.jpg);*/
+    /*background-size: cover;*/
+    /*transition: all 0.3s;*/
+    /*transform: scale(1);*/
+}
+
+.image-box1 .imgBox
+{
+	max-width: 100%;
+	transition: transform 1s;	
+}
+
+.image-box1 .imgBox:hover
+{
+	transform: scale(1.5);
+}
+
+
+.image-box2
+{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    height: 25vh;
+    width:18vw;
+    /*border: 1px solid red;*/
+    /*background-image: url(Electronic.jpg);*/
+    /*background-size: cover;*/
+    /*transition: all 0.3s;*/
+    /*transform: scale(1);*/
+}
+
+.image-box2 .imgBox
+{
+	max-width: 100%;
+	transition: transform 1s;	
+}
+
+.image-box2 .imgBox:hover
+{
+	transform: scale(1.5);
+}
+
+.image-box3
+{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    height: 25vh;
+    width:18vw;
+    /*border: 1px solid red;*/
+/*    background-image: url(RoadTrip.jpg);
+    background-size: cover;
+    transition: all 0.3s;
+    transform: scale(1);    */
+}
+
+.image-box3 .imgBox
+{
+	max-width: 100%;
+	transition: transform 1s;	
+}
+
+.image-box3 .imgBox:hover
+{
+	transform: scale(1.5);
+}
+
+.centered
+{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
+/*Section-7 Ends Here*/
+
+
+/*Section-8 Common Class is used section2-4*/
+
+
+
+/*Section-9 Starts Here*/
+.section-9
+{
+	height: 20vh;
+	width: 88%;
+	/*border: 1px solid red;*/
+	margin-left: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section-9-d1
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Charlie-Puth.jpg);
+	background-size: cover;
+}
+
+.section-9 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 50px;
+	color: white;
+	font-size: 40px;
+	opacity: 1%;
+}
+.section-9-d1:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-9-d2:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-9-d3:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-9-d4:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-9-d5:hover ion-icon
+{
+	opacity: 90%;
+}
+
+
+.section-9-d6:hover ion-icon
+{
+	opacity: 90%;
+}
+.section-9-d2
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Zyan.jpg);
+	background-size: cover;	
+}
+
+.section-9-d3
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(ed-sheeran.jpg);
+	background-size: cover;
+}
+
+.section-9-d4
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(ColdPlay.jpg);
+	background-size: cover;
+}
+
+.section-9-d5
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(SnoopDogg-02.jpg);
+	background-size: cover;
+}
+
+.section-9-d6
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(SnoopDogg.jpg);
+	background-size: cover;
+}
+/*Section-9 Ends Here*/
+
+/*Section-10 Common Class is used Section2-4*/
+
+
+/*Section-11 Starts */
+.section-11
+{
+	height: 20vh;
+	width: 88%;
+	/*border: 1px solid red;*/
+	margin-left: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section-11 ion-icon
+{
+	margin-left: 60px;
+	margin-top: 50px;
+	color: white;
+	font-size: 40px;
+	opacity: 1%;
+}
+
+.section-11-d1:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d2:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d3:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d4:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d5:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d6:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.section-11-d1
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Zyan.jpg);
+	background-size: cover;
+}
+
+.section-11-d2
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Curls.jpg);
+	background-size: cover;	
+}
+
+.section-11-d3
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Sonu.jpg);
+	background-size: cover;
+}
+
+.section-11-d4
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Neha.jpg);
+	background-size: cover;
+}
+
+.section-11-d5
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Atif.jpg);
+	background-size: cover;
+}
+
+.section-11-d6
+{
+	height: 20vh;
+	width: 12vw;
+	/*border: 1px solid blue;*/
+	margin-right: 7px;
+	background-image: url(Arjith.jpg);
+	background-size: cover;
+}
+
+/*section-11 Ends*/
+
+.aside-section1
+{
+	height: 255vh;
+	width:70%;
+	/*border: 1px solid white;*/
+	margin-top: 30px;
+	margin-left: 80px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.aside-section-a
+{
+	height: 6vh;
+	width: 100%;
+	/*border: 1px solid green;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.aside-section-a-1
+{
+	font-size:18px;
+	font-family: sans-serif;
+	margin-top: 5px;
+	color: white;
+	height:30px;
+	width: 100px;
+	/*border: 1px solid orange;*/
+	text-align: center;
+}
+
+.aside-section-a-2
+{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: aqua;
+	height:30px;
+	width: 100px;
+	/*border: 1px solid orange;*/
+	text-align: center;
+	margin-top: 12px;
+	letter-spacing: 1px;	
+	cursor: pointer;
+}
+
+.aside-section-b
+{
+	height: 255vh;
+	width: 100%;
+	/*border: 1px solid red;	*/
+}
+
+.aside-section-b-container
+{
+	height: 8vh;
+	width: 99%;
+	/*border: 1px solid white;*/
+	display: flex;
+	margin-top: 10px;
+}
+
+.aside-section-b-container ion-icon
+{
+	margin-left: 35px;
+	margin-top: 20px;
+	color: white;
+	font-size: 30px;
+	opacity: 1%;
+}
+
+.aside-section-b-container:hover ion-icon
+{
+	opacity: 90%;
+}
+
+.aside-section-b-div1
+{
+	height: 8vh;
+	width:15%;
+	/*border: 1px solid green;	*/
+}
+
+.aside-section-b-div1 div
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.aside-section-b-div2
+{
+	height: 8vh;
+	width: 25%;
+	/*border: 1px solid orange;*/
+}
+
+.a-s-b-d-1
+{
+	background-image: url(DojaCat-SaySo.jpg);
+	background-size: cover;	
+}
+.a-s-b-d-2
+{
+	background-image: url(DuaLips-Physical.jpg);
+	background-size: cover;
+}
+.a-s-b-d-3
+{
+	background-image: url(LadyGaga-StupidLove.jpg);
+	background-size: cover;
+}
+.a-s-b-d-4
+{
+	background-image: url(HarryStyles-AdoreYou.jpg);
+	background-size: cover;
+}
+.a-s-b-d-5
+{
+	background-image: url(MeganTheeStallion-Savage.jpg);
+	background-size: cover;
+}
+.a-s-b-d-6
+{
+	background-image: url(TheWeekend-BlindingLights.jpg);
+	background-size: cover;
+}
+.a-s-b-d-7
+{
+	background-image: url(RoddyRich-TheBox.jpg);
+	background-size: cover;
+}
+.a-s-b-d-8
+{
+	background-image: url(Tony.jpg);
+	background-size: cover;
+}
+.a-s-b-d-9
+{
+	background-image: url(Neha.jpg);
+	background-size: cover;
+}
+.a-s-b-d-10
+{
+	background-image: url(ColdPlay.jpg);
+	background-size: cover;
+}
+.a-s-b-d-11
+{
+	background-image: url(Zyan.jpg);
+	background-size: cover;
+}
+.a-s-b-d-12
+{
+	background-image: url(SnoopDogg.jpg);
+	background-size: cover;
+}
+.a-s-b-d-13
+{
+	background-image: url(SnoopDogg-02.jpg);
+	background-size: cover;
+}
+.a-s-b-d-14
+{
+	background-image: url(SnoopDogg-01.jpg);
+	background-size: cover;
+}
+.a-s-b-d-15
+{
+	background-image: url(ed-sheeran.jpg);
+	background-size: cover;
+}
+.a-s-b-d-16
+{
+	background-image: url(DojaCat-SaySo.jpg);
+	background-size: cover;
+}
+.a-s-b-d-17
+{
+	background-image: url(DuaLips-Physical.jpg);
+	background-size: cover;
+}
+.a-s-b-d-18
+{
+	background-image: url(Sonu.jpg);
+	background-size: cover;
+}
+.a-s-b-d-19
+{
+	background-image: url(Arjith.jpg);
+	background-size: cover;
+}
+.a-s-b-d-20
+{
+	background-image: url(Atif.jpg);
+	background-size: cover;
+}
+.a-s-b-d-21
+{
+	background-image: url(Curls.jpg);
+	background-size: cover;
+}
+.a-s-b-d-22
+{
+	background-image: url(Neha.jpg);
+	background-size: cover;
+}
+.a-s-b-d-23
+{
+	background-image: url(Tony.jpg);
+	background-size: cover;
+}
+.a-s-b-d-24
+{
+	background-image: url(ID.jpeg);
+	background-size: cover;
+}
+.a-s-b-d-25
+{
+	background-image: url(Remi-Woo.jpg);
+	background-size: cover;
+}
+.a-s-b-d-26
+{
+	background-image: url(Sonu.jpg);
+	background-size: cover;
+}
+
+.aside-section-b-div3
+{
+	height: 8vh;
+	width: 50%;
+	/*border: 1px solid aqua;*/
+}
+
+.a-s-b-d2-1
+{
+	height: 8vh;
+	width: 50%;
+}
+
+.aside-section-b-div4
+{
+	height: 8vh;
+	width: 10%;
+	/*border: 1px solid black;*/
+}
+
+.Heart-Container
+{
+	height: 8vh;
+	width: 10%;
+}	
+
+.span-common
+{
+	color: white;
+	letter-spacing: 1px;
+	margin-left: 20px;
+}
+
+.text-container-1
+{
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.text-container-2
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	margin-left: 30px;
+
+}
+
+.Heart-Container
+{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+/*DropDown Button*/
+	.wrapper ul li
+    {
+      list-style: none;
+      background: #fff;
+      width: 160px;
+      border: 1px solid #D3D3D3	;
+      height: 30px;
+      line-height: 50px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    .wrapper li ul 
+    {
+      display: none;
+    }
+    .wrapper li:hover ul
+    {
+	  margin-top: -10px; 
+      margin-left: -180px;
+      display: block;
+      position: absolute;
+    }
+
+
+/*Footer Section*/
+
+
+		.main-footer
+		{
+			height: 8vh;
+			width: auto;
+			/*border: 1px solid white;*/
+			margin-top: -60px;
+			background-color: #373737;
+			display: flex;
+			flex-direction: row;
+			padding: 5px;
+		}
+		.f-1
+		{
+			height: 60px;
+			width: 80px;
+			/*border: 1px solid red;*/
+			background-image: url(Coca.jpg);
+			background-size: cover;
+			margin-right: 2px;
+		}
+		.f-2
+		{
+			height: 60px;
+			width: 100px;
+			display: flex;
+			flex-direction: column;
+			/*border: 1px solid white;*/
+		}
+		.f-s-1
+		{
+			color: white;
+			font-family: sans-serif;
+			font-size: 13px;
+			margin-top: 20%;
+			/*border: 1px solid blue;*/
+			height: 15px;
+		}
+		.f-s-2
+		{
+			color: #787276;
+			font-family: sans-serif;
+			font-size: 12px;
+			line-height: 20px;
+			margin-left: 5px;
+		}
+		.f-3
+		{
+			margin-left: 40px;
+		}
+		.f-3 ion-icon
+		{
+			color: white;
+			font-size: 20px;
+			margin-top: 15px;
+		}
+		.f-4
+		{
+			margin-left: 40px;
+		}
+		.f-4 ion-icon
+		{
+			color: white;
+			font-size: 20px;
+			margin-top: 15px;
+		}
+		.f-5
+		{
+			height: 8vh;
+			width: 40%;
+			/*border: 1px solid white;*/
+			margin-left: 150px;
+			display: flex;
+			flex-direction: column;
+		}
+		.f-5-1
+		{
+			height: 4vh;
+			width:100%;
+			/*border: 1px solid red;*/
+			display: flex;
+			flex-direction: row;
+			/*justify-content: space-around;*/
+		}
+
+		.f-5-1-a
+		{
+			/*border: 1px solid white;*/
+			font-size: 25px;
+			color: white; 
+			margin-left: 150px;
+		}
+		.f-5-1-a ion-icon
+		{
+			margin-top: 6px;
+		}
+		.f-5-1-b
+		{
+			/*border: 1px solid white;*/
+			font-size: 25px;
+			color: white;
+			margin-left: 50px;
+		}
+		.f-5-1-b ion-icon
+		{
+			margin-top: 6px;
+		}		
+		.f-5-1-c
+		{
+			/*border: 1px solid white;*/
+			font-size: 25px;
+			color: white;
+			margin-left: 30px;
+		}
+		.f-5-1-c ion-icon
+		{
+			margin-top: 6px;
+		}
+		.f-5-1-d
+		{
+			/*border: 1px solid white;*/
+			font-size: 25px;
+			color: white;
+			margin-left: 30px;
+		}
+		.f-5-1-d ion-icon
+		{
+			margin-top: 6px;
+		}
+		.f-5-1-e
+		{
+			/*border: 1px solid white;*/
+			font-size: 25px;
+			color: white;
+			margin-left: 50px;
+		}
+		.f-5-1-e ion-icon
+		{
+			margin-top: 6px;
+		}
+
+		.f-5-2
+		{
+			height: 4vh;
+			width:100%;
+			/*border: 1px solid blue;*/
+			display: flex;
+			flex-direction: row;
+		}
+		.f-5-2-a
+		{
+			height:3.5vh;
+			width:5%;
+			/*border: 1px solid white;*/
+			margin-left: 25px;
+			color: white;
+			font-size: 12px;
+			display: flex;
+			align-items: center;
+		}
+		.f-5-2-b
+		{
+			height:3.5vh;
+			width:80%;
+			/*border: 1px solid white;*/
+		}
+		.f-5-2-c
+		{
+			height:3.5vh;
+			width:5%;
+			/*border: 1px solid white;*/
+			color: white;
+			font-size: 12px;
+			display: flex;
+			align-items: center;
+		}
+
+		.slider
+		{
+			width: 100%;
+			height: 5px;
+			-webkit-appearance: none;
+			background-color: dimgrey;
+			/*box-shadow: inset 0 3px 18px rgba(0,0,0,0.6);*/
+			outline: none;
+		}
+
+		.slider::-webkit-slider-thumb
+		{
+			-webkit-appearance:none;
+			width: 12px;
+			height: 12px;
+			background-color: white;
+			border-radius: 50%; 
+			cursor: pointer;
+		}
+
+		.f-6
+		{
+			height: 8vh;
+			width: 20%;
+			/*border: 1px solid white;*/
+			margin-left: 100px;
+			display: flex;
+			flex-direction: row;
+		}
+		.f-6-1
+		{
+			/*border: 1px solid white;*/
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: 25px;
+			margin-right: 25px;
+		}
+		.f-6-2
+		{
+			/*border: 1px solid white;*/
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: 25px;
+			margin-right: 25px;
+		}
+		.f-6-3
+		{
+			/*border: 1px solid white;*/
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: 25px;
+			margin-right: 25px;
+		}
+		.f-6-4
+		{
+			/*border: 1px solid white;*/
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: 25px;
+			margin-right: 10px;
+		}
+		.f-6-4 input
+		{
+			height: 3px;
+		}
+
+
+		.f-6-5
+		{
+			/*border: 1px solid white;*/
+			display: flex;
+			align-items: center;
+			color: white;
+			font-size: 25px;
+			margin-right: 10px;
+		}
+
+
+
+
+
+
+
+
+
